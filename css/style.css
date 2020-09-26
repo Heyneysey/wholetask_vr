@@ -1,0 +1,512 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+             v2.0 | 20110126
+             License: none (public domain)
+          */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body#page1 #li_page1 {
+  background-color: #ffcb74;
+  color: #756c83;
+}
+
+body#page2 #li_page2 {
+  background-color: #ffcb74;
+  color: #756c83;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  position: relative;
+  box-shadow: 0 0 20px black;
+}
+
+header .headerimage {
+  position: absolute;
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.text_header_block_1 {
+  position: absolute;
+  width: 100%;
+  height: 90px;
+  object-fit: cover;
+  z-index: -1;
+  top: 23%;
+  left: 20%;
+  background-color: #4f8a8b;
+}
+
+.text_header_block_2 {
+  position: absolute;
+  width: 50%;
+  height: 50px;
+  object-fit: cover;
+  z-index: -1;
+  top: 42%;
+  left: 32%;
+  background-color: #ffcb74;
+}
+
+.header_block_3_bg {
+  position: absolute;
+  width: 676px;
+  height: 400px;
+  object-fit: cover;
+  overflow: hidden;
+  top: 50%;
+  left: 58%;
+  background-color: #ea907a;
+}
+
+.header_block_4_bg {
+  position: absolute;
+  width: 676px;
+  height: 400px;
+  object-fit: cover;
+  top: 50%;
+  left: 15%;
+  background-color: #ea907a;
+}
+
+header h1 {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 5.5em;
+  font-weight: 900;
+  text-transform: uppercase;
+  position: absolute;
+  overflow: hidden;
+  top: 15%;
+  left: 20%;
+  padding: 60px;
+  text-shadow: 4px 0.5px 0 #383838;
+}
+
+.expand_background {
+  position: absolute;
+  z-index: -4;
+}
+
+nav {
+  height: 100%;
+  width: 200px;
+  background-color: #fbfbfb;
+  position: fixed;
+  box-shadow: 2px 5px 10px grey;
+}
+
+li a {
+  color: #4f8a8b;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5em;
+  font-weight: bolder;
+  text-decoration: none;
+  padding: 20px;
+  margin-top: 8px;
+  display: block;
+  text-transform: uppercase;
+  border-bottom: 1px dashed gray;
+  text-shadow: 1px 1px 1px white;
+}
+
+nav a:hover {
+  background: #ffcb74;
+  color: #756c83;
+}
+
+nav li {
+  text-align: left;
+}
+
+nav .account_pict {
+  height: 30px;
+  width: 40px;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+}
+
+nav .settings_pict {
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  bottom: 5px;
+  right: 45px;
+}
+
+nav .logo_pict {
+  height: 100px;
+  width: 100%;
+  padding-left: 10px;
+  top: -45%;
+  left: -45%;
+  -ms-transform: translate(-50%, 0);
+  transform: translate(-25%, 0);
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 3em;
+  font-weight: 900;
+  text-align: left;
+  text-transform: uppercase;
+  padding: 30px 0;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+  font-size: 3em;
+  font-weight: 900;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  margin: 0;
+  overflow: hidden;
+  z-index: 3;
+}
+
+h3 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.8em;
+  font-weight: 900;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+  font-size 1em;
+  text-align: left;
+}
+
+a {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5em;
+  font-weight: 900;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+body {
+  background-color: #fbfbfb;
+}
+
+main {
+  background-color: rgba(255, 255, 255, 1);
+  width: 700px;
+  margin: 100px auto;
+  padding: 0 50px 100px 50px;
+  box-shadow: 8px 15px 23px #888888;
+}
+
+.text {
+  width: 522px;
+  height: 290px;
+  line-height: 1.5;
+  margin: 100px auto;
+}
+
+.img1 {
+  width: 676px;
+  height: 260px;
+  object-fit: cover;
+  margin: -30px auto;
+  object-position: 50% 0;
+  background: url('../img/img1.jpg') no-repeat center;
+  background-size: cover;
+}
+
+.blocks {
+  width: 676px;
+  margin: 100px auto;
+}
+
+.tblock1 {
+  background-color: #DE1B93;
+  width: 522px;
+  height: 160px;
+  z-index: 2;
+  float: left;
+}
+
+.tblock2 {
+  background-color: #129D8D;
+  width: 137px;
+  height: 160px;
+  float: right;
+}
+
+.middleblocks {
+  width: 676px;
+  margin: 60px auto;
+  clear: both;
+  display: inline-block;
+}
+
+.mblock1 {
+  background-color: #B4AA30;
+  width: 368px;
+  height: 160px;
+  float: left;
+  margin-right: 17px;
+}
+
+.mblock2 {
+  background-color: #129D8D;
+  width: 137px;
+  height: 160px;
+  display: inline-block;
+}
+
+.mblock3 {
+  background-color: #7C2ED8;
+  width: 137px;
+  height: 160px;
+  float: right;
+}
+
+.bottomblocks {
+  width: 676px;
+  margin: 0 auto;
+  clear: both;
+  display: inline-block;
+}
+
+.bblock1 {
+  background-color: #B4AA30;
+  width: 676px;
+  height: 160px;
+}
+
+header .scene_element {
+  animation-duration: 2.5s;
+  transition-timing-function: ease-in;
+  animation-fill-mode: both;
+  animation-name: fadeInDown;
+}
+
+header .scene_element_img {
+  animation-duration: 3s;
+  transition-timing-function: ease-in;
+  animation-fill-mode: both;
+  animation-name: fadeInRight;
+}
+
+header .scene_element_leave {
+  animation-duration: 2s;
+  transition-timing-function: ease-in;
+  animation-fill-mode: both;
+  animation-name: fadeInUp;
+}
+
+header .scene_element_img_leave {
+  animation-duration: 2s;
+  transition-timing-function: ease-in;
+  animation-fill-mode: both;
+  animation-name: fadeInLeft;
+}
+
+header .scene_element_img_2 {
+  animation-duration: 3s;
+  transition-timing-function: ease-in;
+  animation-fill-mode: both;
+  animation-name: fadeInPict;
+}
+
+header .scene_element_img_2_leave {
+  animation-duration: 2s;
+  transition-timing-function: ease-in;
+  animation-fill-mode: both;
+  animation-name: fadeInPictL;
+}
+
+header .text_header_block_2 {
+  animation-duration: 4s;
+}
+
+header .scene_element_roll {
+  animation-duration: 4s;
+  transition-timing-function: ease;
+  animation-fill-mode: both;
+  animation-name: rollLeft;
+}
+
+header .scene_element_roll_leave {
+  animation-duration: 2s;
+  transition-timing-function: ease;
+  animation-fill-mode: both;
+  animation-name: rollRight;
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes fadeInPict {
+  0% {
+    opacity: 0;
+    transform: translate3d(-200%, 0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes fadeInPictL {
+  0% {
+    opacity: 1;
+    transform: none;
+  }
+
+  100% {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 1;
+    transform: none;
+  }
+
+  100% {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+  }
+}
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes fadeInLeft {
+  0% {
+    opacity: 1;
+    transform: none;
+  }
+
+  100% {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+  }
+}
+
+@keyframes rollLeft {
+  0% {
+    opacity: 0;
+    top: 5%;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    background-color: #ffcb74;
+    transform: rotate(0);
+    border-radius: 50%;
+  }
+
+  100% {
+    opacity: 1;
+    top: 5%;
+    left: 70%;
+    width: 200px;
+    height: 200px;
+    background-color: #ffcb74;
+    border-radius: 50%;
+  }
+}
+
+@keyframes rollRight {
+  0% {
+    opacity: 1;
+    top: 5%;
+    left: 70%;
+    width: 200px;
+    height: 200px;
+    background-color: #ffcb74;
+    border-radius: 50%;
+  }
+
+  100% {
+    opacity: 0;
+    top: 5%;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    background-color: #ffcb74;
+    border-radius: 50%;
+  }
+}
+}
